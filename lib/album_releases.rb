@@ -1,5 +1,5 @@
-require "album_releases/version"
+require 'album_releases/version'
 
 module AlbumReleases
-  # Your code goes here...
+  autoload :HealthController, 'album_releases/routes/health_controller'
 end

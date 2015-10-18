@@ -12,3 +12,5 @@ require 'application'
 Dir[root + '/config/initializers/*.rb'].each do |path|
   require path
 end
+
+require 'album_releases'
